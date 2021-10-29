@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body
+{
+    background-image:url('../assets/rpg.jpg');
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;  
+}
+h1
+{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.nbPerso
+{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+.form-container
+{
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form-container form input
+{
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;  
+}
+
+
+.form-container form input[type="submit"] {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #97d5fc;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+
+
+  .container-checkbox
+  {
+      display: flex;
+      justify-content: center;
+  }
+
+  .checkbox-item
+  {
+      margin: 20px;
+  }
+
+  .container-checkbox input[type="checkbox"]
+  {
+      margin-top: 15px;
+  }
+
+  .img-perso
+  {
+      width: 200px;
+      height: 244px;
+  }
+
+  .btn-create, .btn-use
+  {
+      font-weight: bold;
+  }
+
+  .btn-create
+  {
+      background-color: #2c3f5f !important;
+  }
+
+
+ .infoPerso
+ {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 35px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+ }
